@@ -11,7 +11,7 @@ import SwiftUI
 struct Faraway_CalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().statusBar(hidden: true)
         }
     }
 }
